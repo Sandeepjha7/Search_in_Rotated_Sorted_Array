@@ -57,12 +57,5 @@ int findPosition(int arr[], int n, int k)
         return binarySearch(arr,0,pivot-1,k);
     }
 }
-int main()
-{
-    int arr[5]={3,8,10,1,17};
-    
-    cout<<"Search in rotated sorted array is "<<findPosition(arr,5,10)<<endl;
 
-    return 0;
-}
 
